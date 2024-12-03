@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-purple-200 to-violet-300 min-h-screen text-gray-900">
+
+  
+  <nav class="bg-purple-800 flex justify-between items-center py-4 px-6">
+    <img class="w-20 h-18" src="images/logo.png" alt="Logo">
+    <div class="flex space-x-6 text-white text-lg font-semibold">
+      <a href="shop.html" class="hover:text-gray-400">Shop</a>
+      <a href="about.html" class="hover:text-gray-400">About</a>
+      <a href="contact.html" class="hover:text-gray-400">Contact</a>
+    </div>
+  </nav>
+
+  
+  <div class="w-full max-w-sm bg-purple-700 p-10 rounded-lg shadow-lg mx-auto mt-12">
+    <h1 class="text-center text-2xl font-semibold text-white mb-6">Login</h1>
+    
+    <form class="space-y-4">
+  
+      <div>
+        <label for="email" class="block text-sm text-white">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" class="text-white w-full p-3 bg-purple-900 border border-purple-600 rounded-lg focus:ring-2 focus:ring-violet-500"/>
+      </div>
+
+      
+      <div>
+        <label for="password" class="block text-sm text-white">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" class="text-white w-full p-3 bg-purple-900 border border-purple-600 rounded-lg focus:ring-2 focus:ring-violet-500"/>
+      </div>
+
+      <button type="submit" class="w-full bg-violet-600 py-2 rounded-lg text-white hover:bg-violet-500 focus:ring-2 focus:ring-violet-500">
+        Login
+      </button>
+    </form>
+
+    
+    <p class="mt-4 text-center text-sm text-white">
+      Don't have an account? 
+      <a href="signup.html" class="text-violet-300 hover:underline">Sign Up</a>
+    </p>
+  </div>
+
+</body>
+</html>

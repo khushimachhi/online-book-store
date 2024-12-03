@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-purple-900 via-violet-500 to-purple-900 text-white min-h-screen  items-center justify-center">
+
+    <nav class="bg-purple-800 flex justify-between py-3">
+        <img class="w-20 h-18 pd-5 mx-4" src="images/logo.png" alt="">
+        <div class="flex py-5 text-2xl text-white font-semibold justify-end">
+            <a href="shop.html" class="text-lg font-semibold hover:text-gray-400 mx-6">Shop</a>
+            <a href="index.html" class="text-lg font-semibold hover:text-gray-400 mx-6">Home</a>
+            <a href="about.html" class="text-lg font-semibold hover:text-gray-400 mx-6">About</a>
+    </div>
+    </nav>
+  <div class="container mx-auto mt-5 px-6">
+   
+    <div class="max-w-4xl mx-auto bg-purple-800 border border-white rounded-lg shadow-lg p-8">
+      
+      <h1 class="text-3xl font-bold text-center text-white">Contact Us</h1>
+      <p class="text-center text-violet-200 mt-2">We'd love to hear from you! Fill out the form below or reach us at our email.</p>
+
+      
+      <form class="mt-8 space-y-6 ">
+       
+        <div>
+          <label for="name" class="block text-white font-medium">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            class="w-full mt-1 p-3 bg-purple-800 border border-white rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
+          />
+        </div>
+        
+      
+        <div>
+          <label for="email" class="block text-white font-medium">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="w-full mt-1 p-3 bg-purple-800 border border-white rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
+          />
+        </div>
+        
+       
+        <div>
+          <label for="message" class="block text-white font-medium">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Enter your message"
+            class="w-full mt-1 p-3 bg-purple-800 border border-white-400 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
+          ></textarea>
+        </div>
+
+       
+        <div class="text-center">
+          <button
+            type="submit"
+            class="bg-violet-600 hover:bg-white transition text-white hover:text-violet-600 font-semibold py-2 px-6 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-violet-400 border border-white "
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+
+   
+    <footer class="mt-8 text-center text-violet-200">
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
